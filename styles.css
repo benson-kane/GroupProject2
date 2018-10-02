@@ -1,9 +1,23 @@
 /* Benson Kane || Last Modified: 2018-06-05 */
 
 
+
 .pics {
     padding: 5px 0px;
 }
+
+.col-sm-4 {
+
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	/*border-radius: 20px; */
+	
+}
+.row.limit [class*="col-"]{
+  max-height:20px;
+  overflow:hidden;
+}
+
 
 header {
 	background-color:#d9d9d9;
